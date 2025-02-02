@@ -1,0 +1,22 @@
+Overall, the system works amazing, but there are some fixes that could be done.
+
+1. The button naming (button1) to btnSortByCity for clarity.
+
+2. Fix incorrect message in btnMin_Click
+
+3. Refactoring the repetitive queries
+  - Like creating this helper method.
+  	private void ShowStat(string label, Func<object> query)
+  {
+      object result = query.Invoke();
+      MessageBox.Show(result != null ? $"{label}: {result}" : "No data available.");
+  }
+
+4. Using it for the calculations
+      private void btnMax_Click(object sender, EventArgs e) => ShowStat("Highest Population", () => cityTableTableAdapter.GetMax());
+      private void btnMin_Click(object sender, EventArgs e) => ShowStat("Lowest Population", () => cityTableTableAdapter.GetMin());
+      private void btnAvgPop_Click(object sender, EventArgs e) => ShowStat("Average Population", () => cityTableTableAdapter.GetAvg());
+      private void btnTotalPop_Click(object sender, EventArgs e) => ShowStat("Total Population", () => cityTableTableAdapter.GetSum());
+
+5. Other minor improvements
+  like the button labels, button layouts, tooltips.
