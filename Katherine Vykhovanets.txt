@@ -1,0 +1,24 @@
+Katherine’s Form design of the database has 9 buttons of:
+•	Show Details
+•	Population Ascending 
+•	Population Descending 
+•	Sort by City Name
+•	Highest Population
+•	Lowest Population
+•	Average Population
+•	Total Population
+•	Exit
+The text of the lab should be “Population database” instead of “City Database”. The file name submission was partially met titling, 
+“Katherine-Vykhovanets-CPT-206-Lab-2”; which I greatly appreciate the separation title assignments. However, it should have been titled, 
+“KVykhovanets-Lab-2” like the course addendum showed at the very last page when submitting the assignment [highlighted in yellow].
+
+The code, inside the Form Design, is neat and clear. There is each comment for each buttons does and left a special comment on Line 60 of a button name change; 
+letting me know that it might or might not work. There is another form that connects to the database and the main form [Form Design] which is titled, 
+“CityDetails” that shows their ID, City, State, and Population with a “Exit” button. However, there is no comment within the “CityDetails” code that 
+it closes the form “CityDetails”.
+
+Upon running the program every single button work fantastically, I especially like the “Sort by City Name” button because I couldn’t figure out how to do it 
+properly and see the names in alphabetical order. The overall of this assignment has blown off the scale of greatness if it ended with 10. 
+Comparing her program to mine, I need to practice and learn how to do that without deleting and/or adding databases accidentally and need to add a “Exit” button 
+in code when connecting to my database and Details form. It also show that I need to take my time when doing the assignment and look for or ask the tutor 
+to help me find a way to implement a sort option in alphabetical order by cities names and make sure that I don’t skip anything from the require check list.
